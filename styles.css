@@ -1,0 +1,63 @@
+header.header {
+    background-image: url("/images/psychadelicheader.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+header.header nav li {
+    display: inline;
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: hotpink;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+header.header nav li a {
+    display: inline;
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: hotpink;
+    border-radius: 25px;
+    justify-content: center;
+
+}
+
+
+p {
+    background-image: url("/images/psychadelicheader.jpg");
+    background-size: cover;
+}
+
+footer {
+    background-image: url("/images/psychadelicheader.jpg");
+    background-size: cover;
+    height: 10%;
+    padding: 50px;
+    border-radius: 25px;
+
+}
+
+/* Rest of your styles... */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
